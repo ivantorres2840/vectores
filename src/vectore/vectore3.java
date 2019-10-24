@@ -7,8 +7,8 @@ public class vectore3 extends vectore1 {
 	public static void multiplos(int tamaño,int vnumero[],int numero) {
 		int multiplos = 0;
 		for (int i =0; i<tamaño; i++){
-			multiplos=numero*i;
-			multiplos=vnumero[i];
+			vnumero[i]=numero*i;
+			
 			}
 		}
 	
